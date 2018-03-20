@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav li a:hover{
+    display: block;
+    color:#fff!important;
+}
+.nav li:hover{
+    background:rgba(0, 158, 219, 1);
+}
+.img1 {
+    margin-right:120px;
+}
+.top{
+    margin-top:120px;
+    margin-left: 100px;
+    height: 400px;
+}
+
+.top1 a{
+    font-size: 24px;
+    color:#000;
+    margin-left:22px;
+}
+.top span{
+    color:red;
+}
+section{
+    width: 100%;
+    background: url("../images/zhuce.jpg");
+    height:720px;
+}
+input[type="text"]{
+    width: 300px;
+    height: 40px;
+    margin-left: 59px;
+    border: 1px solid #cccccc;
+
+}
+input[type="password"]{
+    width: 300px;
+    height: 40px;
+    margin-left: 59px;
+    border: 1px solid #cccccc;
+}
+input[type="email"]{
+    padding-left: 40px;
+    width: 300px;
+    height: 40px;
+    margin-left: 59px;
+    border: 1px solid #cccccc;
+}
+input[type="submit"]{
+    width: 300px;
+    height: 40px;
+    margin-left: 59px;
+    font-size: 22px;
+    font-weight: bold;
+    background: #0f73d2;
+    color:#fff;
+    text-align: center;
+    line-height:41px;
+}
+label{
+    width:70px;
+    float:left;
+    text-align: right;
+}
+#left{
+    float: right;
+    margin-right:150px;
+    margin-top: 20px;
+}
+footer p{
+    text-align: center!important;
+}

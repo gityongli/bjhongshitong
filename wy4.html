@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css" media="screen">
+    <link rel="stylesheet" href="css/wy4.css">
+    <script src="js/wy4.js"></script>
+</head>
+<body>
+<header>
+    <div class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#list">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <img src="images/logo.jpg" alt="" class="img1">
+            </div>
+            <div id="list" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="wy1.html">首页</a></li>
+                    <li><a href="wy2.html">会展回顾</a></li>
+                    <li><a href="wy3.html">基本信息</a></li>
+                    <li><a href="wy4.html">会场预定</a></li>
+                    <li><a href="wy5.html">展会计划</a></li>
+                    <li><a href="wy6.html">联系方式</a></li>
+                    <li><a href="denglu.html">登录</a></li>
+                    <li><a href="zhuce.html">注册</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
+<div id="banner">
+    <div class="container">
+        <div class="top row">
+            <div class="col-md-4 col-sm-6 col-xs-12 well">
+                <h3 id="h4">展会搜索 / Exhibition search</h3>
+                <p id="ss">展会行业：<select name="" style="width:200px;" id="sec">
+                    <option value="请选择" selected>请选择</option>
+                    <option value="">环保水处理</option>
+                    <option value="">能源</option>
+                    <option value="">农畜牧业</option>
+                    <option value="">流体机械</option>
+                    <option value="">建材铁路</option>
+                    <option value="">制冷空调</option>
+                    <option value="">医疗</option>
+                    <option value="">绿化</option>
+                    <option value="">电力</option>
+                    <option value="">食品</option>
+                    <option value="">酿酒</option>
+                    <option value="">汽车，零配</option>
+                </select></p>
+                <p>展会年份：<select name="" style="width:200px;" id="sec1">
+                    <option value="请选择" selected>请选择</option>
+                    <option value="">2006</option>
+                    <option value="">2007</option>
+                    <option value="">2008</option>
+                    <option value="">2009</option>
+                    <option value="">2010</option>
+                    <option value="">2011</option>
+                    <option value="">2012</option>
+                    <option value="">2013</option>
+                    <option value="">2014</option>
+                    <option value="">2015</option>
+                    <option value="">2016</option>
+                    <option value="">2017</option>
+                    <option value="">2018</option>
+                    <option value="">2019</option>
+                    <option value="">2020</option>
+                    <option value="">2022</option>
+                    <option value="">2023</option>
+                    <option value="">2024</option>
+                </select></p>
+                <p>展会地区：<select name="" style="width:200px;" id="sec2">
+                    <option value="请选择" selected>请选择</option>
+                    <option value="">亚洲</option>
+                    <option value="">北美洲</option>
+                    <option value="">欧洲</option>
+                    <option value="">南美洲</option>
+                    <option value="">非洲</option>
+                    <option value="">大洋洲</option>
+                </select></p>
+                <p>展会国家：<select name="" style="width:200px;" id="sec3">
+                    <option value="请选择" selected>请选择</option>
+                    <option value="">美国</option>
+                    <option value="">墨西哥</option>
+                    <option value="">加拉大</option>
+                    <option value="">中国</option>
+                    <option value="">土耳其</option>
+                    <option value="">马来西亚</option>
+                    <option value="">泰国</option>
+                    <option value="">孟加拉</option>
+                    <option value="">越南</option>
+                    <option value="">菲律宾</option>
+                    <option value="">哈达克斯坦</option>
+                    <option value="">沙特阿拉伯</option>
+                    <option value="">阿布扎比</option>
+                    <option value="">缅甸</option>
+                    <option value="">印度</option>
+                    <option value="">迪拜</option>
+                    <option value="">新加坡</option>
+                    <option value="">叙利亚</option>
+                    <option value="">巴基斯坦</option>
+                    <option value="">伊朗</option>
+                    <option value="">韩国</option>
+                    <option value="">以色列</option>
+                    <option value="">柬埔寨</option>
+                    <option value="">乌兹别克斯坦</option>
+                    <option value="">印尼</option>
+                    <option value="">日本</option>
+                    <option value="">斯里兰卡</option>
+                    <option value="">老挝</option>
+                    <option value="">乌克兰</option>
+                    <option value="">荷兰</option>
+                    <option value="">英国</option>
+                    <option value="">德国</option>
+                    <option value="">希腊</option>
+                    <option value="">挪威</option>
+                    <option value="">意大利</option>
+                    <option value="">俄罗斯</option>
+                    <option value="">巴西</option>
+                    <option value="">阿根廷</option>
+                    <option value="">智力</option>
+                    <option value="">埃及</option>
+                    <option value="">摩洛哥</option>
+                    <option value="">埃塞俄比亚</option>
+                    <option value="">苏丹</option>
+                    <option value="">肯尼亚</option>
+                    <option value="">阿尔及利亚</option>
+                    <option value="">尼日利亚</option>
+                    <option value="">澳大利亚</option>
+                </select></p>
+                <p class="ss">
+                    <button type="button" class="btn btn-info" id="sou">搜索</button>
+                    <button type="button" class="btn btn-warning">更多</button>
+                </p>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <h4 class="h4"><a href="#">推荐展会</a>
+                    <a href="#"><span class="span1">更多</span></a>
+                    <a href="#"><span class="glyphicon glyphicon-triangle-right"></span></a>
+                    <a href="#"><span class="glyphicon glyphicon-triangle-right"></span></a>
+                </h4>
+                <div class="row" id="row1">
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <img src="images/sou3.gif" alt="" class="img-thumbnail">
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <p><a href="#">2018越南国际家禽畜展示</a><br>2018.10.17—10.19<br>
+                            ECC国际展览中心</p>
+                    </div>
+                </div>
+                <div class="row" id="row2">
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <img src="images/sou2.gif" alt="" class="img-thumbnail">
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <p><a href="#">2018菲律宾国际太阳项目</a><br>2018.5.23-5.24<br>
+                            马里拉会议中心</p>
+                    </div>
+                </div>
+                <div class="row" id="row3">
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <img src="images/sou1.gif" alt="" class="img-thumbnail">
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <p><a href="#">2018第十届阿根廷家禽畜</a><br>2018.5.8-5.10<br>
+                            阿根廷—布宜诺斯爱利斯</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 well">
+                <form action="#" method="post" id="form">
+                    <h3>登录验证信息</h3>
+                    <p><label>姓名：</label>
+                        <input type="text" id="name" onkeyup="checkName()">
+                        <span id="nameSpan"></span></p>
+                    <p><label>密码：</label>
+                        <input type="password" id="pwd" onkeyup="checkPwd()">
+                        <span id="pwdSpan"></span></p>
+                    <p><label>邮箱：</label>
+                        <input type="email" id="email" onkeyup="checkEmail()">
+                        <span id="emailSpan"></span></p>
+                    <p><label>手机号：</label><input type="text" id="phone" onkeyup="checkPhone()">
+                        <span id="phoneSpan"></span></p>
+                    <p class="tij">
+                        <button type="submit" class="btn btn-info" id="input1">提交</button>
+                        <button type="reset" class="btn btn-warning" id="input2" onkeyup="resetAll()">重置</button>
+                    </p>
+                </form>
+            </div>
+        </div>
+        <div class="row well">
+            <div class="col-md-8 col-sm-6 col-xs-12">
+                <h3>会场预定</h3>
+                <div class="thumbnail">
+                    <img src="images/5.jpg" alt="" class="img-thumbnail" id="img2">
+                    <div class="caption">
+                        <h4>北京宏世通国际会展</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <h3 class="tejia">预定信息
+                    <a class="asp"> <span class="span glyphicon glyphicon-phone"></span>
+                        <span class="span glyphicon glyphicon-heart"></span>
+                        <span class="span glyphicon glyphicon-heart"></span>
+                        <span class="span glyphicon glyphicon-heart"></span>
+                    </a>
+                </h3>
+                <div class="bottom list-group">
+                    <a href="#" class="list-group-item active">
+                        <span class="glyphicon">会场名称：北京宏世通国际会展</span>
+                    </a>
+                    <a href="#" class="list-group-item">
+                        <span class="glyphicon">会场电话：010 - 5805333</span>
+                    </a>
+                    <a href="#" class="list-group-item">
+                        <span class="glyphicon">会场地点：北京市甘露园</span>
+                    </a>
+                    <a href="#" class="list-group-item">
+                        <span class="glyphicon">交通方式：北京站</span>
+                    </a>
+                </div>
+                <div class="bottom list-group">
+                    <a href="#" class="list-group-item active">
+                        <span class="glyphicon">其他服务：住宿餐饮</span>
+                    </a>
+                    <a href="#" class="list-group-item">
+                        <span class="glyphicon">订单电话：010 - 58053333</span>
+                    </a>
+                    <a href="#" class="list-group-item">
+                        <span class="glyphicon">主要类型：西餐，川味，粤菜</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row well">
+            <div class="col-md-8 col-sm-6 col-xs-12">
+                <h3>产品信息</h3>
+                <div class="thumbnail">
+                    <img src="images/6.jpg" alt="" class="img-thumbnail" id="img">
+                    <div class="caption">
+                        <h4>北京宏世通国际会展</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <h3 class="tejia">产品介绍
+                    <a class="asp"><span class="span glyphicon glyphicon-phone"></span>
+                        <span class="span glyphicon glyphicon-heart"></span>
+                        <span class="span glyphicon glyphicon-heart"></span>
+                        <span class="span glyphicon glyphicon-heart"></span>
+                    </a>
+                </h3>
+                <div class="bottom list-group">
+                    <a href="#" class="list-group-item active">
+                        <span class="glyphicon">安全/防护 办公/文教 电脑/软件 电子/电工 </span>
+                    </a>
+                    <a href="#" class="list-group-item">
+                        <span class="glyphicon">纺织皮革 服装服饰 机械设备  化工</span>
+                    </a>
+                    <a href="#" class="list-group-item">
+                        <span class="glyphicon">公共设施 家用电器 建筑装饰 环保</span>
+                    </a>
+                    <a href="#" class="list-group-item">
+                        <span class="glyphicon">能源/冶金矿产 食品/饮料 烟酒 礼品 工艺品</span>
+                    </a>
+                </div>
+                <div class="bottom list-group">
+                    <a href="#" class="list-group-item active">
+                        <span class="glyphicon">五金制品/工具 仪器/仪表 印刷/出版 </span>
+                    </a>
+                    <a href="#" class="list-group-item">
+                        <span class="glyphicon">医疗/保健 商业服务 综合性公司 </span>
+                    </a>
+                    <a href="#" class="list-group-item">
+                        <span class="glyphicon">包装纸 收藏品 玩具 通讯</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row well">
+            <div class="col-md-8 col-sm-6 col-xs-12">
+                <h3>最新信息</h3>
+                <div class="thumbnail">
+                    <img src="images/7.jpg" alt="" class="img-thumbnail" id="img1">
+                    <div class="caption">
+                        <h4>北京宏世通国际会展</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <h3 class="tejia">信息介绍
+                    <a class="asp"> <span class="span glyphicon glyphicon-phone"></span>
+                        <span class="span glyphicon glyphicon-heart"></span>
+                        <span class="span glyphicon glyphicon-heart"></span>
+                        <span class="span glyphicon glyphicon-heart"></span>
+                    </a>
+                </h3>
+                <div class="bottom list-group">
+                    <a href="#" class="list-group-item active">
+                        <span class="glyphicon">【电子行业】2017中国电子展</span>
+                    </a>
+                    <a href="#" class="list-group-item">
+                        <span class="glyphicon">【纺织面料】2017上海国际面料展会</span>
+                    </a>
+                    <a href="#" class="list-group-item">
+                        <span class="glyphicon">【服装】2017上海服装展</span>
+                    </a>
+                    <a href="#" class="list-group-item">
+                        <span class="glyphicon">【机床模具】2017上海工博会</span>
+                    </a>
+                </div>
+                <div class="bottom list-group">
+                    <a href="#" class="list-group-item active">
+                        <span class="glyphicon">【家具礼品】2017深圳礼品会</span>
+                    </a>
+                    <a href="#" class="list-group-item">
+                        <span class="glyphicon">【流体机械】2017亚洲国家动力传动展览会</span>
+                    </a>
+                    <a href="#" class="list-group-item">
+                        <span class="glyphicon">【机床模具】2018北京两年一届机床展</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</html>

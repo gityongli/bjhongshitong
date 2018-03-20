@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav li a:hover{
+    display: block;
+    color:#fff!important;
+}
+.nav li:hover{
+    background:rgba(0, 158, 219, 1);
+}
+.img1 {
+    margin-right:120px;
+}
+.long{
+    margin-top:60px;
+}
+#banner1{
+    background: url("../images/2.jpg");
+    height: 330px;
+}
+#banner2{
+    background: url("../images/3.jpg");
+    height:330px;
+}
+.row1{
+    margin-top: 20px;
+    border-top: 1px solid #000;
+}
+.fen{
+    line-height:45px;
+}
+#btn1{
+    margin-left:100px;
+}
+.list-group{
+    margin-top:15px;
+}
+footer p{
+    text-align: center;
+}

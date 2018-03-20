@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav li a:hover {
+    display: block;
+    color: #fff !important;
+}
+
+.nav li:hover {
+    background:rgba(0, 158, 219, 1);
+}
+
+.img1 {
+    margin-right: 120px;
+}
+
+.top {
+    margin-top: 70px;
+}
+
+#sou {
+   margin-left:168px!important;
+}
+#sec,#sec1,#sec2,#sec3{
+    margin-left: 10px;
+}
+.h4 {
+    font-weight: bold;
+    color: #3093db;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #3093db;
+    border-bottom-width: thick;
+    width: 300px;
+}
+
+#h4 {
+    border-bottom: 1px solid #c0c0c0;
+    border-bottom-width: thin;
+    width:300px;
+}
+.ss,#ss{
+    margin-top:20px;
+}
+
+.tij{
+    margin-left: 104px;
+    margin-top:30px;
+}
+.span1 {
+    margin-left: 140px;
+}
+
+#form label {
+    width:60px;
+    float: left;
+    text-align: left;
+}
+#form p span{
+    color: red!important;
+}
+.span{
+    color:red!important;
+}
+.asp{
+    margin-left:60px;
+}
+.tejia{
+    border-bottom:1px solid #619cf9;;
+    border-bottom-width:thick;
+    color:#619cf9;
+    margin-top:15px;
+}
+.bottom{
+    margin-top:30px;
+}
+#img,#img1,#img2{
+    width: 700px;
+    height: 300px;
+}

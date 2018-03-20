@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav li a:hover{
+    display: block;
+    color:#fff!important;
+}
+.nav li:hover{
+    background:rgba(0, 158, 219, 1);
+}
+.img1 {
+    margin-right:120px;
+}
+.top{
+    margin-top:80px;
+    margin-left:100px;
+}
+.top1{
+    margin-left: 59px;
+}
+.top1 a{
+    font-size: 20px;
+    color:#000;
+}
+.top span{
+    color:red;
+}
+section{
+    width: 100%;
+    background: url("../images/denglu.jpg");
+    height: 620px;
+}
+input[type="text"]{
+    padding-left:41px;
+    background: #fff url("../images/name_03.jpg")no-repeat;
+    width: 339px;
+    height: 41px;
+    margin-top: 20px;
+    margin-left: 59px;
+    border: 1px solid #cccccc;
+
+}
+input[type="password"]{
+    padding-left: 41px;
+    background: #fff url("../images/pwd_06.jpg")no-repeat;
+    width: 339px;
+    height: 41px;
+    margin-top: 20px;
+    margin-left: 59px;
+    border: 1px solid #cccccc;
+}
+input[type="email"]{
+    padding-left: 41px;
+    background: #fff url("../images/pwd_06.jpg")no-repeat;
+    width: 339px;
+    height: 41px;
+    margin-top: 20px;
+    margin-left: 59px;
+    border: 1px solid #cccccc;
+}
+input[type="submit"]{
+    width: 339px;
+    height: 45px;
+    margin-top:10px;
+    margin-left: 59px;
+    font-size: 22px;
+    font-weight: bold;
+    background: #0f73d2;
+    color:#fff;
+    text-align: center;
+    line-height:41px;
+}
+input[type="checkbox"]{
+    margin-top: 20px;
+    margin-left: 59px;
+}
+#left{
+    float: right;
+    margin-right:150px;
+    margin-top: 20px;
+}
+footer p{
+    text-align: center!important;
+}
