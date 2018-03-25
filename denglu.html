@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>登录</title>
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.css" media="screen">
     <link rel="stylesheet" href="css/denglu.css">
@@ -39,16 +39,16 @@
     <div class="container">
         <div class="row">
             <div class="top col-md-6 col-lg-push-3 well">
-                <form action="zhuce.html" method="post">
+                <form action="#" method="post">
                     <p class="top1">
                         <a href="#">登录账号</a></p>
-                    <p><input type="text" placeholder="用户名" id="name" onkeyup="checkName()">
+                    <p><input type="text" placeholder="用户名" id="name" onkeyup="checkName()" required>
                         <span id="nameSpan"></span></p>
-                    <p><input type="text" placeholder="手机号" id="phone" onkeyup="checkPhone()">
+                    <p><input type="text" placeholder="手机号" id="phone" onkeyup="checkPhone()" required>
                         <span id="phoneSpan"></span></p>
-                    <p><input type="email" placeholder="邮箱" id="email" onkeyup="checkEmail()">
+                    <p><input type="email" placeholder="邮箱" id="email" onkeyup="checkEmail()" required>
                         <span id="emailSpan"></span></p>
-                    <p><input type="password" placeholder="密码" id="pwd" onkeyup="checkPwd()">
+                    <p><input type="password" placeholder="密码" id="pwd" onkeyup="checkPwd()" required>
                         <span id="pwdSpan"></span></p>
                     <p><input type="checkbox" checked="checked">
                         <a href="#">下次自动登录</a>

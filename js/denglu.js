@@ -1,11 +1,25 @@
 /**
  * Created by lenovo on 17/6/20 020.
  */
-
+function validate() {
+    var name = document.getElementById("name").value;
+    var phone=document.getElementById("phone").value;
+    var cid=document.getElementById("cid").value;
+    var pwd=document.getElementById("pwd").value;
+    if (phone=="15613776900") {
+        window.open("index.html")
+    }else if(cid=="620523199808275309"){
+        window.open("index.html")
+    }else if(pwd=="1234567"){
+        window.open("index.html")
+    }else {
+        /* alert("请认真填写信息")*/
+    }
+}
 function checkName() {
     var name = document.getElementById("name").value;
     if (name.length < 3) {
-        document.getElementById("nameSpan").innerHTML = "姓名不能少于3位数";
+        document.getElementById("nameSpan").innerHTML = "不能少于3位数";
     } else {
         document.getElementById("nameSpan").innerHTML = "正确";
     }
