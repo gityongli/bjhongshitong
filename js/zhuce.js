@@ -6,11 +6,11 @@ function validate() {
     var phone=document.getElementById("phone").value;
     var cid=document.getElementById("cid").value;
     var pwd=document.getElementById("pwd").value;
-    if (phone=="15613776900") {
+    if (phone=="15076690274") {
       window.open("index.html")
     }else if(cid=="620523199808275309"){
         window.open("index.html")
-    }else if(pwd=="1234567"){
+    }else if(pwd=="12345678"){
         window.open("index.html")
     }else {
        /* alert("请认真填写信息")*/
