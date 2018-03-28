@@ -9,6 +9,9 @@
 .nav li:hover{
     background:rgba(0, 158, 219, 1);
 }
+.p_1{
+    font-size: 12px!important;
+}
 .img1 {
     margin-right:120px;
 }

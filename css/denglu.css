@@ -14,7 +14,7 @@
 }
 .top{
     margin-top:80px;
-    margin-left:100px;
+
 }
 .top1{
     margin-left: 59px;
@@ -39,8 +39,19 @@ input[type="text"]{
     margin-top: 20px;
     margin-left: 59px;
     border: 1px solid #cccccc;
-
 }
+
+/*@media screen and(max-width:1024px){*/
+    /*input[type="text"]{*/
+        /*width:200px;*/
+        /*margin-left: 0;*/
+        /*background: red;*/
+    /*}*/
+    /*.top{*/
+        /*position: absolute;*/
+        /*left: 0;*/
+    /*}*/
+/*}*/
 input[type="password"]{
     padding-left: 41px;
     background: #fff url("../images/pwd_06.jpg")no-repeat;
@@ -71,15 +82,16 @@ input[type="submit"]{
     text-align: center;
     line-height:41px;
 }
-input[type="checkbox"]{
-    margin-top: 20px;
-    margin-left: 59px;
+#one{
+    width:100%;
+    height: 100%;
+
 }
-#left{
-    float: right;
-    margin-right:150px;
-    margin-top: 20px;
+.top p input{
+    width: 70%;
+
 }
+
 footer p{
     text-align: center!important;
 }

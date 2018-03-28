@@ -13,7 +13,6 @@ function validate() {
     }else if(pwd=="12345678"){
         window.open("index.html")
     }else {
-       /* alert("请认真填写信息")*/
     }
 }
 function checkName() {

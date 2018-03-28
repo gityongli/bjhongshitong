@@ -165,13 +165,13 @@
     overflow: hidden;
 }
 .long {
-     width:230px;
+     width:220px;
      height:230px;
      overflow: hidden;
  }
 .bo{
     width:3000px;
-    animation:run 10s 1s ease infinite normal;
+    animation:run 15s 2s ease infinite normal;
 }
 .long img {
     float: left;
@@ -207,16 +207,6 @@
     color:white;
     cursor:pointer;
 }
-/*.ul4 span{
-   margin-left:5px;
-}*/
-/*.ul4 .span1{
-    margin-left: 63px;
-}
-.ul4 .span2{
-    margin-left:37px;
-}*/
-
 .you{
     color: #46b8da!important;
 }

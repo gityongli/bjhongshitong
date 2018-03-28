@@ -21,7 +21,7 @@
 }
 
 #sou {
-   margin-left:168px!important;
+   margin-left:160px!important;
 }
 #sec,#sec1,#sec2,#sec3{
     margin-left: 10px;
@@ -32,13 +32,13 @@
     margin-bottom: 10px;
     border-bottom: 1px solid #3093db;
     border-bottom-width: thick;
-    width: 300px;
+    width: 222px;
 }
 
 #h4 {
     border-bottom: 1px solid #c0c0c0;
     border-bottom-width: thin;
-    width:300px;
+    width:210px;
 }
 .ss,#ss{
     margin-top:20px;
