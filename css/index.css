@@ -151,7 +151,7 @@
     margin-left:10px;
 }
 #li1,#li2,#li3,#li4,#li5,#li6{
-    font-size:20px;
+    font-size:16px;
 }
 #li1,#li2,#li3,#li4,#li5,#li6{
     background:rgba(0, 158, 219, 1);
@@ -172,6 +172,7 @@
 .bo{
     width:3000px;
     animation:run 15s 2s ease infinite normal;
+    /*动画名称 执行时间 1s之后执行 慢速开始，然后变快，然后慢速结束的过渡效果 往返执行*/
 }
 .long img {
     float: left;
